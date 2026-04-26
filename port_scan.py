@@ -1,6 +1,6 @@
 import socket
 
-target = "scanme.nmap.org"
+target = "scanme.nmap.org" #enter your target IP address
 
 for port in range(1, 101):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
