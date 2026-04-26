@@ -2,7 +2,7 @@ import socket
 
 target = "scanme.nmap.org" #enter your target IP address
 
-for port in range(1, 1000): #set port range
+for port in range(1, 1001): #set port range
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.settimeout(0.5)
 
