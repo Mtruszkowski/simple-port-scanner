@@ -12,6 +12,6 @@ for port in range(1, 1001): #set port range
         try:
             banner = s.recv(1024).decode()
         except TimeoutError:
-            banner = 'banner is not availabe!'
+            banner = 'banner is not available!'
         print(f'[+] {port} is open! {banner}')
     s.close()
